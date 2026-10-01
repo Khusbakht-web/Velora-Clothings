@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign In | VELORA</title>
+      <link rel="icon" type="image/png" href="../../assets/favicon.png">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-white text-gray-900">
+
+
+    <!-- Navbar -->
+    <nav class="bg-white border-b border-gray-200">
+
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+            <!-- Logo -->
+            <a href="../../index.html"
+               class="text-2xl font-bold tracking-widest">
+                VELORA
+            </a>
+
+
+            <!-- Navigation -->
+            <div class="hidden md:flex items-center gap-8">
+
+                <a href="../../index.html"
+                   class="text-sm font-medium text-gray-600 hover:text-gray-900 transition">
+                    Home
+                </a>
+
+                <a href="about.html"
+                   class="text-sm font-medium text-gray-600 hover:text-gray-900 transition">
+                    About
+                </a>
+
+                <a href="contact.html"
+                   class="text-sm font-medium text-gray-600 hover:text-gray-900 transition">
+                    Contact
+                </a>
+
+                <a href="signin.html"
+                   class="text-sm font-medium text-gray-900">
+                    Sign In
+                </a>
+
+                <a href="signup.html"
+                   class="bg-gray-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-gray-700 transition">
+                    Sign Up
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Button -->
+            <button class="md:hidden text-2xl">
+                ☰
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Sign In Hero -->
+    <section class="bg-gray-100 py-16">
+
+        <div class="max-w-3xl mx-auto px-6 text-center">
+
+            <p class="text-sm font-semibold tracking-[0.3em] text-gray-500 uppercase">
+                Welcome Back
+            </p>
+
+            <h1 class="text-5xl font-bold mt-4">
+                Sign In
+            </h1>
+
+            <p class="text-gray-600 mt-4">
+                Welcome back to your VELORA account.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Sign In Section -->
+    <section class="py-16">
+
+        <div class="max-w-md mx-auto px-6">
+
+
+            <!-- Login Card -->
+            <div class="bg-white border border-gray-200 rounded-2xl
+                        shadow-lg p-8">
+
+
+                <!-- Card Heading -->
+                <div class="text-center mb-8">
+
+                    <h2 class="text-2xl font-bold">
+                        Welcome Back
+                    </h2>
+
+                    <p class="text-gray-500 mt-2 text-sm">
+                        Enter your details to continue.
+                    </p>
+
+                </div>
+
+
+                <!-- Sign In Form -->
+                <form class="space-y-5">
+
+
+                    <!-- Email -->
+                    <div>
+
+                        <label class="block text-sm font-medium mb-2">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            placeholder="Enter your email"
+                            required
+                            class="w-full px-4 py-3 border border-gray-300
+                                   rounded-xl focus:outline-none
+                                   focus:ring-2 focus:ring-gray-900">
+
+                    </div>
+
+
+                    <!-- Password -->
+                    <div>
+
+                        <label class="block text-sm font-medium mb-2">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            placeholder="Enter your password"
+                            required
+                            class="w-full px-4 py-3 border border-gray-300
+                                   rounded-xl focus:outline-none
+                                   focus:ring-2 focus:ring-gray-900">
+
+                    </div>
+
+
+                    <!-- Remember + Forgot -->
+                    <div class="flex items-center justify-between text-sm">
+
+                        <label class="flex items-center gap-2">
+
+                            <input type="checkbox"
+                                   class="w-4 h-4">
+
+                            <span class="text-gray-600">
+                                Remember me
+                            </span>
+
+                        </label>
+
+
+                        <a href="#"
+                           class="font-medium text-gray-900 hover:underline">
+                            Forgot Password?
+                        </a>
+
+                    </div>
+
+
+                    <!-- Sign In Button -->
+                    <button
+                        type="submit"
+                        class="w-full bg-gray-900 text-white py-3
+                               rounded-xl font-medium
+                               hover:bg-gray-700 transition">
+
+                        Sign In
+
+                    </button>
+
+                </form>
+
+
+                <!-- Divider -->
+                <div class="flex items-center gap-4 my-7">
+
+                    <div class="h-px bg-gray-200 flex-1"></div>
+
+                    <span class="text-sm text-gray-400">
+                        OR
+                    </span>
+
+                    <div class="h-px bg-gray-200 flex-1"></div>
+
+                </div>
+
+
+                <!-- Social Buttons -->
+                <div class="grid grid-cols-2 gap-4">
+
+                    <button
+                        class="border border-gray-300 py-3 rounded-xl
+                               text-sm font-medium hover:bg-gray-50 transition">
+
+                        Google
+
+                    </button>
+
+                    <button
+                        class="border border-gray-300 py-3 rounded-xl
+                               text-sm font-medium hover:bg-gray-50 transition">
+
+                        Facebook
+
+                    </button>
+
+                </div>
+
+
+                <!-- Sign Up Link -->
+                <p class="text-center text-sm text-gray-500 mt-7">
+
+                    Don't have an account?
+
+                    <a href="signup.html"
+                       class="text-gray-900 font-semibold hover:underline">
+                        Create Account
+                    </a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Benefits Section -->
+    <section class="bg-gray-100 py-16">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-10">
+
+                <p class="text-sm font-semibold tracking-[0.3em] text-gray-500 uppercase">
+                    VELORA Account
+                </p>
+
+                <h2 class="text-3xl md:text-4xl font-bold mt-3">
+                    Your Benefits
+                </h2>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+
+                <!-- Benefit 1 -->
+                <div class="bg-white p-7 rounded-2xl text-center">
+
+                    <div class="text-3xl mb-4">
+                        ♡
+                    </div>
+
+                    <h3 class="font-semibold text-xl">
+                        Save Favorites
+                    </h3>
+
+                    <p class="text-gray-600 mt-2">
+                        Keep your favorite VELORA pieces
+                        in one place.
+                    </p>
+
+                </div>
+
+
+                <!-- Benefit 2 -->
+                <div class="bg-white p-7 rounded-2xl text-center">
+
+                    <div class="text-3xl mb-4">
+                        ✓
+                    </div>
+
+                    <h3 class="font-semibold text-xl">
+                        Track Orders
+                    </h3>
+
+                    <p class="text-gray-600 mt-2">
+                        Easily keep track of your
+                        shopping activity.
+                    </p>
+
+                </div>
+
+
+                <!-- Benefit 3 -->
+                <div class="bg-white p-7 rounded-2xl text-center">
+
+                    <div class="text-3xl mb-4">
+                        ✦
+                    </div>
+
+                    <h3 class="font-semibold text-xl">
+                        Exclusive Updates
+                    </h3>
+
+                    <p class="text-gray-600 mt-2">
+                        Stay updated with new collections
+                        and VELORA news.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Call To Action -->
+    <section class="bg-gray-900 text-white py-16">
+
+        <div class="max-w-3xl mx-auto px-6 text-center">
+
+            <h2 class="text-3xl md:text-4xl font-bold">
+                New To VELORA?
+            </h2>
+
+            <p class="text-gray-300 mt-4">
+                Create your account and start exploring our collection.
+            </p>
+
+            <a href="signup.html"
+               class="inline-block mt-7 bg-white text-gray-900
+                      px-8 py-3 rounded-full font-medium
+                      hover:bg-gray-200 transition">
+                Create Account
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-10">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+
+                <!-- Brand -->
+                <div>
+
+                    <h3 class="text-2xl font-bold tracking-widest">
+                        VELORA
+                    </h3>
+
+                    <p class="text-gray-400 mt-3">
+                        Timeless Style. Everyday Comfort.
+                    </p>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div>
+
+                    <h4 class="font-semibold mb-4">
+                        Quick Links
+                    </h4>
+
+                    <div class="space-y-2">
+
+                        <a href="../../index.html"
+                           class="block text-gray-400 hover:text-white">
+                            Home
+                        </a>
+
+                        <a href="about.html"
+                           class="block text-gray-400 hover:text-white">
+                            About
+                        </a>
+
+                        <a href="contact.html"
+                           class="block text-gray-400 hover:text-white">
+                            Contact
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Account -->
+                <div>
+
+                    <h4 class="font-semibold mb-4">
+                        Account
+                    </h4>
+
+                    <div class="space-y-2">
+
+                        <a href="signin.html"
+                           class="block text-gray-400 hover:text-white">
+                            Sign In
+                        </a>
+
+                        <a href="signup.html"
+                           class="block text-gray-400 hover:text-white">
+                            Sign Up
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 mt-8 pt-6 text-center">
+
+                <p class="text-gray-500 text-sm">
+                    © 2026 VELORA. All rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
